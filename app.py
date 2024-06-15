@@ -14,8 +14,8 @@ st.title('YOLOv8 Model Deployment with Streamlit')
 
 # Load the YOLOv8 model
 #model = YOLO('C:/Users/lnape/Downloads/best.pt')
-model = YOLO('Practice/best.pt')
-
+#model = YOLO('Practice/best.pt')
+model = YOLO('/workspaces/Practice/Practice/best.pt')
 
 model.export(format='onnx')
 
